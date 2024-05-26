@@ -1,0 +1,17 @@
+video games site
+
+json file with data on separate domain
+-type out some info
+-upload it to TwoPines
+
+express back end
+-split project in two and install Express, etc
+-get Ajax call to TwoPines json file
+
+react front end
+
+
+
+600 x 900
+
+home games bySystem

@@ -1,0 +1,218 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: 100% 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: lightgrey;
+  text-align: center;
+  font-family: monospace;
+
+}
+
+body:after {
+  content: "";
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  display: block;
+  background: url('../public/img/wave_bg.jpg') no-repeat 50% 50%;
+  background-size: cover;
+  /*<a href="https://www.freepik.com/free-vector/3d-abstract-wave-pattern-background-vector_31958281.htm#fromView=search&page=1&position=30&uuid=3247c967-df31-4dfa-9379-6193a137e25f">Image by rawpixel.com</a> on Freepik*/
+
+}
+
+.text_bg {
+  background-color: black;
+  text-shadow: 3px 3px black;
+  border: 2px solid fuchsia;
+  padding: 1em;
+}
+
+.text_bg_2 {
+  background-color: aqua;
+  padding: 0.12em;
+}
+
+.img_border {
+  border: 1px solid mediumspringgreen;
+}
+
+#Games {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+#Home {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.top_margin {
+  margin-top: 10%;
+}
+
+.top_margin_mobile {
+  margin-top: 25%;
+}
+
+.width_adjuster {
+  height: auto;
+  width: auto;
+  max-width: 400px;
+  min-width: 300px;
+  min-height: 200px;
+  max-height: 500px;
+}
+
+#Genres {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.system_div {
+  margin: 1em 2em 1em 2em;
+  background-color: white;
+  border: 5px solid grey;
+}
+
+.label_font {
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+.loading_text {
+  color: white;
+}
+
+#Header {
+  margin: 2em auto -1em auto;
+}
+
+.header_item {
+  font-size: 1.7em;
+  text-decoration: none;
+  color: black;
+  background-color: rgb(207, 207, 207);
+  border: 5px solid grey;
+  padding: 0.35em;
+}
+
+.header_item_2 {
+  font-size: 1.7em;
+  text-decoration: none;
+  color: black;
+  background-color: rgb(207, 207, 207);
+  border: 5px solid grey;
+  margin: 3em 1.2em auto 1.2em;
+  padding: 0.35em;
+}
+
+.header_dropdown {
+  font-size: 1.7em;
+  text-decoration: none;
+  color: black;
+  background-color: rgb(207, 207, 207);
+  border: 5px solid grey;
+  padding: 0.35em;
+}
+
+.game_thumb {
+  border: 10px double black;
+}
+
+.genre_thumb {
+  border: 2px solid yellowgreen;
+  padding: 0.1em;
+}
+
+.nes_bg {
+  background-color: red;
+}
+
+.snes_bg {
+  background-color: rgb(187, 185, 232);
+}
+
+.systems_border {
+  border: 6px double white;
+}
+
+
+.genesis_bg {
+  background-color: rgb(78, 101, 226);
+}
+
+.n64_bg {
+  background-color: rgb(255, 192, 1);
+}
+
+.playstation_bg {
+  background-color: rgb(1, 164, 150);
+}
+
+.genres_border {
+  border: 1px solid fuchsia;
+}
+
+.genre_container_border {
+  border: 2px solid aqua;
+}
+
+.decades_border {
+  border: 2px solid aquamarine;
+}
+
+.dreamcast_bg {
+  background-color: white;
+}
+
+.gamecube_bg {
+  background-color: rgb(102, 83, 175);
+}
+
+.smaller_img {
+  max-width: auto;
+  min-width: 100px;
+  max-height: 250px;
+  min-height: 125px;
+}
+
+.smallerer_img {
+  max-width: 400px;
+  min-width: 300px;
+  width: auto;
+  max-height: 250px;
+  min-height: auto;
+  height: auto;
+}
+
+.header_img {
+  max-width: 45%;
+  margin: auto auto 4em auto;
+}
+
+.nonchalant {
+  text-decoration: none;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .header_img {
+    max-width: 80%;
+  }
+}
