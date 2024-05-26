@@ -1,17 +1,5 @@
-video games site
+Currently:
 
-json file with data on separate domain
--type out some info
--upload it to TwoPines
+The site is live, but it is deriving it's data from localhost. The JSON file needs to be moved to TwoPines, and then the code needs to be altered in /API.
 
-express back end
--split project in two and install Express, etc
--get Ajax call to TwoPines json file
-
-react front end
-
-
-
-600 x 900
-
-home games bySystem
+There's a chance that because the root of the project on Vercel is /client, that there may be a whole problem with how the data is being retrieved, and the JSON may have to move to /client instead.
