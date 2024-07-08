@@ -12,7 +12,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get('/', (req, res) => {
-    res.send(list)
+    res.send(list);
 })
 
 app.get('/games', (req, res) => {

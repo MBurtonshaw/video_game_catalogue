@@ -1,0 +1,3 @@
+npm run dev
+
+outside of 'client' or 'api', in project root
