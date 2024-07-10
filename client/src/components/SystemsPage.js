@@ -1,5 +1,6 @@
 import { React, useState, useEffect } from 'react';
 import Loading from './Loading';
+import system from '../games.json';
 
 export default function SystemsPage() {
 
@@ -7,18 +8,18 @@ export default function SystemsPage() {
     const [isLoading, setIsLoading] = useState(true);
 
     async function getData() {
-        fetch('http://localhost:5000/', {
-            headers: {
-                'Content-Type': 'application/json',
-                'Accept': 'application/json'
-            }
-        })
-            .then(function (response) {
-                return response.json();
-            })
-            .then(function (myJson) {
-                setSystems(myJson.systems);
-            });
+        // fetch('http://localhost:5000/', {
+        //     headers: {
+        //         'Content-Type': 'application/json',
+        //         'Accept': 'application/json'
+        //     }
+        // })
+        //     .then(function (response) {
+        //         return response.json();
+        //     })
+        //     .then(function (myJson) {
+                setSystems(system.systems);
+            // });
         setIsLoading(false);
     }
 

@@ -1,6 +1,7 @@
 import { React, useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import Loading from './Loading';
+import titles from '../games.json';
 
 export default function Title() {
 
@@ -10,66 +11,66 @@ export default function Title() {
     let params = useParams();
 
     async function getData() {
-        fetch('http://localhost:5000/', {
-            headers: {
-                'Content-Type': 'application/json',
-                'Accept': 'application/json'
-            }
-        })
-            .then(function (response) {
-                return response.json();
-            })
-            .then(function (myJson) {
-                myJson.games.Nintendo.NES.forEach(
+        // fetch('http://localhost:5000/', {
+        //     headers: {
+        //         'Content-Type': 'application/json',
+        //         'Accept': 'application/json'
+        //     }
+        // })
+        //     .then(function (response) {
+        //         return response.json();
+        //     })
+        //     .then(function (myJson) {
+                titles.titles.Nintendo.NES.forEach(
                     item => {
                         if (item.url.slice(10).toLowerCase() === params.id) {
                             setGames(item)
                         }
                     }
                 )
-                myJson.games.Nintendo.SNES.forEach(
+                titles.titles.Nintendo.SNES.forEach(
                     item => {
                         if (item.url.slice(11).toLowerCase() === params.id) {
                             setGames(item)
                         }
                     }
                 )
-                myJson.games.Nintendo.N64.forEach(
+                titles.titles.Nintendo.N64.forEach(
                     item => {
                         if (item.url.slice(10).toLowerCase() === params.id) {
                             setGames(item)
                         }
                     }
                 )
-                myJson.games.Nintendo.GameCube.forEach(
+                titles.titles.Nintendo.GameCube.forEach(
                     item => {
                         if (item.url.slice(15).toLowerCase() === params.id) {
                             setGames(item)
                         }
                     }
                 )
-                myJson.games.Sega.Dreamcast.forEach(
+                titles.titles.Sega.Dreamcast.forEach(
                     item => {
                         if (item.url.slice(16).toLowerCase() === params.id) {
                             setGames(item)
                         }
                     }
                 )
-                myJson.games.Sega.Genesis.forEach(
+                titles.titles.Sega.Genesis.forEach(
                     item => {
                         if (item.url.slice(14).toLowerCase() === params.id) {
                             setGames(item)
                         }
                     }
                 )
-                myJson.games.Sony.Playstation.forEach(
+                titles.titles.Sony.Playstation.forEach(
                     item => {
                         if (item.url.slice(18).toLowerCase() === params.id) {
                             setGames(item)
                         }
                     }
                 )
-            });
+            // });
         setIsLoading(false);
     }
 

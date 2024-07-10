@@ -1,0 +1,1170 @@
+{
+    "titles": {
+        "Nintendo": {
+            "NES": [
+                {
+                    "id": 1,
+                    "name": "BattleToads",
+                    "url": "games/nes/battletoads",
+                    "year": "1991",
+                    "genre": "Platform",
+                    "developerPublisher": [
+                        "Rare"
+                    ],
+                    "photo": "nes/battletoads.jpg",
+                    "planToBeat": false,
+                    "CurrentlyPlaying": false,
+                    "beaten": false
+                },
+                {
+                    "id": 2,
+                    "name": "Castlevania 3: Dracula's Curse",
+                    "url": "games/nes/castlevania_3",
+                    "year": "1989",
+                    "genre": "Platform",
+                    "developerPublisher": [
+                        "Konami"
+                    ],
+                    "photo": "nes/castlevania_3.jpg",
+                    "planToBeat": false,
+                    "CurrentlyPlaying": false,
+                    "beaten": false
+                },
+                {
+                    "id": 3,
+                    "name": "Contra",
+                    "url": "games/nes/contra",
+                    "year": "1987",
+                    "genre": "Run&Gun",
+                    "developerPublisher": [
+                        "Konami"
+                    ],
+                    "photo": "nes/contra.jpg",
+                    "planToBeat": false,
+                    "CurrentlyPlaying": false,
+                    "beaten": false
+                },
+                {
+                    "id": 4,
+                    "name": "Mother",
+                    "url": "games/nes/mother",
+                    "year": "1989",
+                    "genre": "RPG",
+                    "developerPublisher": [
+                        "Nintendo"
+                    ],
+                    "photo": "nes/mother.jpg",
+                    "planToBeat": false,
+                    "CurrentlyPlaying": false,
+                    "beaten": false
+                },
+                {
+                    "id": 5,
+                    "name": "Final Fantasy",
+                    "url": "games/nes/final_fantasy",
+                    "year": "1987",
+                    "genre": "RPG",
+                    "developerPublisher": [
+                        "Square"
+                    ],
+                    "photo": "nes/final_fantasy.jpg",
+                    "planToBeat": false,
+                    "CurrentlyPlaying": false,
+                    "beaten": false
+                },
+                {
+                    "id": 6,
+                    "name": "Ghosts 'n Goblins",
+                    "url": "games/nes/ghosts_and_goblins",
+                    "year": "1985",
+                    "genre": "Run&Gun",
+                    "developerPublisher": [
+                        "Capcom"
+                    ],
+                    "photo": "nes/ghosts_and_goblins.jpg",
+                    "planToBeat": false,
+                    "CurrentlyPlaying": false,
+                    "beaten": false
+                },
+                {
+                    "id": 7,
+                    "name": "Guerilla War",
+                    "url": "games/nes/guerilla_war",
+                    "year": "1987",
+                    "genre": "Run&Gun",
+                    "developerPublisher": [
+                        "SNK"
+                    ],
+                    "photo": "nes/guerilla_war.jpg",
+                    "planToBeat": true,
+                    "CurrentlyPlaying": false,
+                    "beaten": false
+                },
+                {
+                    "id": 8,
+                    "name": "Karate Kid",
+                    "url": "games/nes/karate_kid",
+                    "year": "1987",
+                    "genre": "Action",
+                    "developerPublisher": [
+                        "Atlus"
+                    ],
+                    "photo": "nes/karate_kid.jpg",
+                    "planToBeat": false,
+                    "CurrentlyPlaying": false,
+                    "beaten": false
+                },
+                {
+                    "id": 9,
+                    "name": "Kickle Cubicle",
+                    "url": "games/nes/kickle_cubicle",
+                    "year": "1990",
+                    "genre": "Puzzle",
+                    "developerPublisher": [
+                        "Irem"
+                    ],
+                    "photo": "nes/kickle_cubicle.jpg",
+                    "planToBeat": true,
+                    "CurrentlyPlaying": true,
+                    "beaten": false
+                },
+                {
+                    "id": 10,
+                    "name": "Kirby's Adventure",
+                    "url": "games/nes/kirbys_adventure",
+                    "year": 1993,
+                    "genre": "Platform",
+                    "developerPublisher": [
+                        "HAL Laboratory"
+                    ],
+                    "photo": "nes/kirbys_adventure.jpg",
+                    "planToBeat": true,
+                    "CurrentlyPlaying": true,
+                    "beaten": false
+                },
+                {
+                    "id": 11,
+                    "name": "Super Mario Bros",
+                    "url": "games/nes/super_mario_bros",
+                    "year": 1985,
+                    "genre": "Platform",
+                    "developerPublisher": [
+                        "Nintendo"
+                    ],
+                    "photo": "nes/super_mario_bros.jpg",
+                    "planToBeat": true,
+                    "CurrentlyPlaying": false,
+                    "beaten": false
+                },
+                {
+                    "id": 12,
+                    "name": "Super Mario Bros: The Lost Levels",
+                    "url": "games/nes/super_mario_lost_levels",
+                    "year": "1986",
+                    "genre": "Platform",
+                    "developerPublisher": [
+                        "Nintendo"
+                    ],
+                    "photo": "nes/super_mario_lost_levels.jpg",
+                    "planToBeat": false,
+                    "CurrentlyPlaying": false,
+                    "beaten": false
+                },
+                {
+                    "id": 13,
+                    "name": "Super Mario Bros 2",
+                    "url": "games/nes/super_mario_bros_2",
+                    "year": 1988,
+                    "genre": "Platform",
+                    "developerPublisher": [
+                        "Nintendo"
+                    ],
+                    "photo": "nes/super_mario_bros_2.jpg",
+                    "planToBeat": false,
+                    "CurrentlyPlaying": false,
+                    "beaten": false
+                },
+                {
+                    "id": 14,
+                    "name": "Super Mario Bros 3",
+                    "url": "games/nes/super_mario_bros_3",
+                    "year": 1988,
+                    "genre": "Platform",
+                    "developerPublisher": [
+                        "Nintendo"
+                    ],
+                    "photo": "nes/super_mario_bros_3.jpg",
+                    "planToBeat": false,
+                    "CurrentlyPlaying": false,
+                    "beaten": false
+                },
+                {
+                    "id": 15,
+                    "name": "Megaman 5",
+                    "url": "games/nes/megaman_5",
+                    "year": 1992,
+                    "genre": "Platform",
+                    "developerPublisher": [
+                        "Nintendo"
+                    ],
+                    "photo": "nes/megaman_5.jpg",
+                    "planToBeat": false,
+                    "CurrentlyPlaying": false,
+                    "beaten": false
+                },
+                {
+                    "id": 16,
+                    "name": "Metroid",
+                    "url": "games/nes/metroid",
+                    "year": 1986,
+                    "genre": "Platform",
+                    "developerPublisher": [
+                        "Nintendo"
+                    ],
+                    "photo": "nes/metroid.jpg",
+                    "planToBeat": false,
+                    "CurrentlyPlaying": false,
+                    "beaten": false
+                },
+                {
+                    "id": 17,
+                    "name": "Ninja Gaiden",
+                    "url": "games/nes/ninja_gaiden",
+                    "year": "1988",
+                    "genre": "Platform",
+                    "developerPublisher": [
+                        "Tecmo"
+                    ],
+                    "photo": "nes/ninja_gaiden.jpg",
+                    "planToBeat": false,
+                    "CurrentlyPlaying": false,
+                    "beaten": false
+                },
+                {
+                    "id": 18,
+                    "name": "Rampage",
+                    "url": "games/nes/rampage",
+                    "year": 1986,
+                    "genre": "Platform",
+                    "developerPublisher": [
+                        "Midway"
+                    ],
+                    "photo": "nes/rampage.jpg",
+                    "planToBeat": false,
+                    "CurrentlyPlaying": false,
+                    "beaten": false
+                },
+                {
+                    "id": 19,
+                    "name": "Chip 'N Dale: Rescue Rangers",
+                    "url": "games/nes/rescue_rangers",
+                    "year": "1990",
+                    "genre": "Platform",
+                    "developerPublisher": [
+                        "Capcom"
+                    ],
+                    "photo": "nes/rescue_rangers.jpg",
+                    "planToBeat": false,
+                    "CurrentlyPlaying": false,
+                    "beaten": false
+                },
+                {
+                    "id": 20,
+                    "name": "Tiny Toons Adventures",
+                    "url": "games/nes/tiny_toons_adventures",
+                    "year": "1991",
+                    "genre": "Platform",
+                    "developerPublisher": [
+                        "Konami"
+                    ],
+                    "photo": "nes/tiny_toons_adventures.jpg",
+                    "planToBeat": false,
+                    "CurrentlyPlaying": false,
+                    "beaten": false
+                },
+                {
+                    "id": 21,
+                    "name": "Whomp'em",
+                    "url": "games/nes/whompem",
+                    "year": "1991",
+                    "genre": "Platform",
+                    "developerPublisher": [
+                        "Jaleco"
+                    ],
+                    "photo": "nes/whompem.jpg",
+                    "planToBeat": false,
+                    "CurrentlyPlaying": false,
+                    "beaten": false
+                },
+                {
+                    "id": 22,
+                    "name": "Ironsword: Wizards & Warriors 2",
+                    "url": "games/nes/wizards_and_warriors_2",
+                    "year": "1991",
+                    "genre": "Platform",
+                    "developerPublisher": [
+                        "Acclaim"
+                    ],
+                    "photo": "nes/wizards_and_warriors_2.jpg",
+                    "planToBeat": false,
+                    "CurrentlyPlaying": false,
+                    "beaten": false
+                }
+            ],
+            "SNES": [
+                {
+                    "id": 23,
+                    "name": "Castlevania 4",
+                    "url": "games/snes/castlevania_4",
+                    "year": "1991",
+                    "genre": "Platform",
+                    "developerPublisher": [
+                        "Konami"
+                    ],
+                    "photo": "snes/castlevania_4.jpg",
+                    "planToBeat": false,
+                    "CurrentlyPlaying": false,
+                    "beaten": false
+                },
+                {
+                    "id": 24,
+                    "name": "Demon's Crest",
+                    "url": "games/snes/demons_crest",
+                    "year": "1994",
+                    "genre": "Platform",
+                    "developerPublisher": [
+                        "Capcom"
+                    ],
+                    "photo": "snes/demons_crest.jpg",
+                    "planToBeat": false,
+                    "CurrentlyPlaying": false,
+                    "beaten": false
+                },
+                {
+                    "id": 25,
+                    "name": "Donkey Kong Country",
+                    "url": "games/snes/donkey_kong_country",
+                    "year": "1994",
+                    "genre": "Platform",
+                    "developerPublisher": [
+                        "Rare"
+                    ],
+                    "photo": "snes/donkey_kong_country.jpg",
+                    "planToBeat": false,
+                    "CurrentlyPlaying": false,
+                    "beaten": false
+                },
+                {
+                    "id": 26,
+                    "name": "Earthbound",
+                    "url": "games/snes/earthbound",
+                    "year": "1994",
+                    "genre": "RPG",
+                    "developerPublisher": [
+                        "HAL Laboratory"
+                    ],
+                    "photo": "snes/earthbound.jpg",
+                    "planToBeat": true,
+                    "CurrentlyPlaying": true,
+                    "beaten": false
+                },
+                {
+                    "id": 27,
+                    "name": "Final Fantasy 4",
+                    "url": "games/snes/final_fantasy_4",
+                    "year": "1991",
+                    "genre": "RPG",
+                    "developerPublisher": [
+                        "Square"
+                    ],
+                    "photo": "snes/final_fantasy_4.jpg",
+                    "planToBeat": true,
+                    "CurrentlyPlaying": true,
+                    "beaten": false
+                },
+                {
+                    "id": 28,
+                    "name": "Final Fantasy 5",
+                    "url": "games/snes/final_fantasy_5",
+                    "year": "1992",
+                    "genre": "RPG",
+                    "developerPublisher": [
+                        "Square"
+                    ],
+                    "photo": "snes/final_fantasy_5.jpg",
+                    "planToBeat": true,
+                    "CurrentlyPlaying": false,
+                    "beaten": false
+                },
+                {
+                    "id": 29,
+                    "name": "Final Fantasy 6",
+                    "url": "games/snes/final_fantasy_6",
+                    "year": "1994",
+                    "genre": "RPG",
+                    "developerPublisher": [
+                        "Square"
+                    ],
+                    "photo": "snes/final_fantasy_6.jpg",
+                    "planToBeat": true,
+                    "CurrentlyPlaying": false,
+                    "beaten": false
+                },
+                {
+                    "id": 30,
+                    "name": "Ghouls n Ghosts",
+                    "url": "games/snes/ghouls_n_ghosts",
+                    "year": "1991",
+                    "genre": "Platform",
+                    "developerPublisher": [
+                        "Capcom"
+                    ],
+                    "photo": "snes/ghouls_n_ghosts.jpg",
+                    "planToBeat": false,
+                    "CurrentlyPlaying": false,
+                    "beaten": false
+                },
+                {
+                    "id": 31,
+                    "name": "Harvest Moon",
+                    "url": "games/snes/harvest_moon",
+                    "year": "1996",
+                    "genre": "Simulator",
+                    "developerPublisher": [
+                        "Amccus"
+                    ],
+                    "photo": "snes/harvest_moon.jpg",
+                    "planToBeat": false,
+                    "CurrentlyPlaying": false,
+                    "beaten": false
+                },
+                {
+                    "id": 32,
+                    "name": "Kirby's Dreamland 3",
+                    "url": "games/snes/kirbys_dreamland_3",
+                    "year": "1997",
+                    "genre": "Platform",
+                    "developerPublisher": [
+                        "HAL Laboratory"
+                    ],
+                    "photo": "snes/kirbys_dreamland_3.jpg",
+                    "planToBeat": true,
+                    "CurrentlyPlaying": false,
+                    "beaten": false
+                },
+                {
+                    "id": 33,
+                    "name": "Super Metroid",
+                    "url": "games/snes/super_metroid",
+                    "year": "1994",
+                    "genre": "Platform",
+                    "developerPublisher": [
+                        "Nintendo"
+                    ],
+                    "photo": "snes/super_metroid.jpg",
+                    "planToBeat": false,
+                    "CurrentlyPlaying": false,
+                    "beaten": false
+                },
+                {
+                    "id": 34,
+                    "name": "Mortal Kombat 2",
+                    "url": "games/snes/mortal_kombat_2",
+                    "year": "1993",
+                    "genre": "Fighting",
+                    "developerPublisher": [
+                        "Midway"
+                    ],
+                    "photo": "snes/mortal_kombat_2.jpg",
+                    "planToBeat": false,
+                    "CurrentlyPlaying": false,
+                    "beaten": false
+                },
+                {
+                    "id": 35,
+                    "name": "SimCity",
+                    "url": "games/snes/simcity",
+                    "year": "1989",
+                    "genre": "Simulator",
+                    "developerPublisher": [
+                        "Maxis"
+                    ],
+                    "photo": "snes/simcity.jpg",
+                    "planToBeat": false,
+                    "CurrentlyPlaying": false,
+                    "beaten": false
+                },
+                {
+                    "id": 36,
+                    "name": "Star Fox",
+                    "url": "games/snes/star_fox",
+                    "year": "1993",
+                    "genre": "Shooter",
+                    "developerPublisher": [
+                        "Nintendo"
+                    ],
+                    "photo": "snes/star_fox.jpg",
+                    "planToBeat": false,
+                    "CurrentlyPlaying": false,
+                    "beaten": false
+                },
+                {
+                    "id": 37,
+                    "name": "Street Fighter Alpha 2",
+                    "url": "games/snes/street_fighter_alpha_2",
+                    "year": "1996",
+                    "genre": "Fighting",
+                    "developerPublisher": [
+                        "Capcom"
+                    ],
+                    "photo": "snes/street_fighter_alpha_2.jpg",
+                    "planToBeat": false,
+                    "CurrentlyPlaying": false,
+                    "beaten": false
+                },
+                {
+                    "id": 38,
+                    "name": "Super Mario All-Stars",
+                    "url": "games/snes/super_mario_all_stars",
+                    "year": "1993",
+                    "genre": "Platform",
+                    "developerPublisher": [
+                        "Nintendo"
+                    ],
+                    "photo": "snes/super_mario_all_stars.jpg",
+                    "planToBeat": false,
+                    "CurrentlyPlaying": false,
+                    "beaten": false
+                },
+                {
+                    "id": 39,
+                    "name": "Wario's Woods",
+                    "url": "games/snes/warios_woods",
+                    "year": "1994",
+                    "genre": "Puzzle",
+                    "developerPublisher": [
+                        "Nintendo"
+                    ],
+                    "photo": "snes/warios_woods.jpg",
+                    "planToBeat": false,
+                    "CurrentlyPlaying": false,
+                    "beaten": false
+                },
+                {
+                    "id": 40,
+                    "name": "Michael Jordan: Chaos in the Windy City",
+                    "url": "games/snes/michael_jordan",
+                    "year": "1994",
+                    "genre": "Platform",
+                    "developerPublisher": [
+                        "Electronic Arts"
+                    ],
+                    "photo": "snes/michael_jordan.jpg",
+                    "planToBeat": true,
+                    "CurrentlyPlaying": false,
+                    "beaten": false
+                }
+            ],
+            "N64": [
+                {
+                    "id": 41,
+                    "name": "007: Goldeneye",
+                    "url": "games/n64/007_goldeneye",
+                    "year": "1997",
+                    "genre": "Shooter",
+                    "developerPublisher": [
+                        "Rare"
+                    ],
+                    "photo": "n64/007_goldeneye.jpg",
+                    "planToBeat": true,
+                    "CurrentlyPlaying": false,
+                    "beaten": false
+                },
+                {
+                    "id": 42,
+                    "name": "Army Men: Sarge's Heroes 2",
+                    "url": "games/n64/army_men_2",
+                    "year": "2000",
+                    "genre": "Shooter",
+                    "developerPublisher": [
+                        "3DO"
+                    ],
+                    "photo": "n64/army_men_2.jpg",
+                    "planToBeat": false,
+                    "CurrentlyPlaying": false,
+                    "beaten": false
+                },
+                {
+                    "id": 43,
+                    "name": "Battle Tanx",
+                    "url": "games/n64/battle_tanx",
+                    "year": "1998",
+                    "genre": "Action",
+                    "developerPublisher": [
+                        "3DO"
+                    ],
+                    "photo": "n64/battle_tanx.jpg",
+                    "planToBeat": false,
+                    "CurrentlyPlaying": false,
+                    "beaten": false
+                },
+                {
+                    "id": 44,
+                    "name": "Battle Tanx: Global Assault",
+                    "url": "games/n64/battle_tanx_global_assault",
+                    "year": "1999",
+                    "genre": "Action",
+                    "developerPublisher": [
+                        "3DO"
+                    ],
+                    "photo": "n64/battle_tanx_global_assault.jpg",
+                    "planToBeat": true,
+                    "CurrentlyPlaying": false,
+                    "beaten": false
+                },
+                {
+                    "id": 45,
+                    "name": "Kirby 64: The Crystal Shards",
+                    "url": "games/n64/kirby64",
+                    "year": "2000",
+                    "genre": "Platform",
+                    "developerPublisher": [
+                        "HAL Laboratory"
+                    ],
+                    "photo": "n64/kirby64.jpg",
+                    "planToBeat": true,
+                    "CurrentlyPlaying": false,
+                    "beaten": false
+                },
+                {
+                    "id": 46,
+                    "name": "Pokemon Snap!",
+                    "url": "games/n64/pokemon_snap",
+                    "year": "1999",
+                    "genre": "Shooter",
+                    "developerPublisher": [
+                        "HAL Laboratory"
+                    ],
+                    "photo": "n64/pokemon_snap.jpg",
+                    "planToBeat": false,
+                    "CurrentlyPlaying": false,
+                    "beaten": false
+                },
+                {
+                    "id": 47,
+                    "name": "Road Rash 64",
+                    "url": "games/n64/road_rash_64",
+                    "year": "1999",
+                    "genre": "Racing",
+                    "developerPublisher": [
+                        "THQ"
+                    ],
+                    "photo": "n64/road_rash_64.jpg",
+                    "planToBeat": false,
+                    "CurrentlyPlaying": false,
+                    "beaten": false
+                },
+                {
+                    "id": 48,
+                    "name": "Super Smash Bros",
+                    "url": "games/n64/super_smash_bros",
+                    "year": "1999",
+                    "genre": "Fighting",
+                    "developerPublisher": [
+                        "HAL Laboratory"
+                    ],
+                    "photo": "n64/super_smash_bros.jpg",
+                    "planToBeat": false,
+                    "CurrentlyPlaying": false,
+                    "beaten": false
+                },
+                {
+                    "id": 49,
+                    "name": "Star Fox 64",
+                    "url": "games/n64/star_fox_64",
+                    "year": "1997",
+                    "genre": "Shooter",
+                    "developerPublisher": [
+                        "Nintendo"
+                    ],
+                    "photo": "n64/star_fox_64.jpg",
+                    "planToBeat": true,
+                    "CurrentlyPlaying": true,
+                    "beaten": true
+                },
+                {
+                    "id": 50,
+                    "name": "Star Wars Episode 1: Racer",
+                    "url": "games/n64/star_wars_racer",
+                    "year": "1999",
+                    "genre": "Racing",
+                    "developerPublisher": [
+                        "LucasArts"
+                    ],
+                    "photo": "n64/star_wars_racer.jpg",
+                    "planToBeat": true,
+                    "CurrentlyPlaying": false,
+                    "beaten": false
+                },
+                {
+                    "id": 51,
+                    "name": "Mario Tennis",
+                    "url": "games/n64/mario_tennis",
+                    "year": "2000",
+                    "genre": "Sports",
+                    "developerPublisher": [
+                        "Nintendo"
+                    ],
+                    "photo": "n64/mario_tennis.jpg",
+                    "planToBeat": false,
+                    "CurrentlyPlaying": false,
+                    "beaten": false
+                },
+                {
+                    "id": 52,
+                    "name": "Paper Mario",
+                    "url": "games/n64/paper_mario",
+                    "year": "2000",
+                    "genre": "RPG",
+                    "developerPublisher": [
+                        "Nintendo"
+                    ],
+                    "photo": "n64/paper_mario.jpg",
+                    "planToBeat": true,
+                    "CurrentlyPlaying": false,
+                    "beaten": false
+                },
+                {
+                    "id": 53,
+                    "name": "Super Mario 64",
+                    "url": "games/n64/super_mario_64",
+                    "year": "1996",
+                    "genre": "Platform",
+                    "developerPublisher": [
+                        "Nintendo"
+                    ],
+                    "photo": "n64/super_mario_64.jpg",
+                    "planToBeat": true,
+                    "CurrentlyPlaying": false,
+                    "beaten": false
+                },
+                {
+                    "id": 54,
+                    "name": "Mario Kart 64",
+                    "url": "games/n64/mario_kart_64",
+                    "year": "1996",
+                    "genre": "Platform",
+                    "developerPublisher": [
+                        "Nintendo"
+                    ],
+                    "photo": "n64/mario_kart_64.jpg",
+                    "planToBeat": false,
+                    "CurrentlyPlaying": false,
+                    "beaten": false
+                },
+                {
+                    "id": 55,
+                    "name": "Legend of Zelda: Ocarina of Time",
+                    "url": "games/n64/ocarina_of_time",
+                    "year": "1998",
+                    "genre": "Action",
+                    "developerPublisher": [
+                        "Nintendo"
+                    ],
+                    "photo": "n64/ocarina_of_time.jpg",
+                    "planToBeat": true,
+                    "CurrentlyPlaying": true,
+                    "beaten": false
+                },
+                {
+                    "id": 56,
+                    "name": "Legend of Zelda: Majora's Mask",
+                    "url": "games/n64/majoras_mask",
+                    "year": "2000",
+                    "genre": "Action",
+                    "developerPublisher": [
+                        "Nintendo"
+                    ],
+                    "photo": "n64/majoras_mask.jpg",
+                    "planToBeat": true,
+                    "CurrentlyPlaying": false,
+                    "beaten": false
+                }
+            ],
+            "GameCube": [
+                {
+                    "id": 57,
+                    "name": "Doshin the Giant",
+                    "url": "games/gameCube/doshin_the_giant",
+                    "year": "2002",
+                    "genre": "Simulator",
+                    "developerPublisher": [
+                        "Nintendo"
+                    ],
+                    "photo": "gameCube/doshin_the_giant.jpg",
+                    "planToBeat": false,
+                    "CurrentlyPlaying": false,
+                    "beaten": false
+                }
+            ]
+        },
+        "Sega": {
+            "Dreamcast": [
+                {
+                    "id": 58,
+                    "name": "Marvel v Capcom: Clash of Superheroes",
+                    "url": "games/dreamcast/marvel_v_capcom",
+                    "year": "1998",
+                    "genre": "Fighting",
+                    "developerPublisher": [
+                        "Capcom"
+                    ],
+                    "photo": "dreamcast/marvel_v_capcom.jpg",
+                    "planToBeat": false,
+                    "CurrentlyPlaying": false,
+                    "beaten": false
+                },
+                {
+                    "id": 59,
+                    "name": "Crazy Taxi",
+                    "url": "games/dreamcast/crazy_taxi",
+                    "year": "1999",
+                    "genre": "Racing",
+                    "developerPublisher": [
+                        "Sega"
+                    ],
+                    "photo": "dreamcast/crazy_taxi.jpg",
+                    "planToBeat": false,
+                    "CurrentlyPlaying": false,
+                    "beaten": false
+                },
+                {
+                    "id": 60,
+                    "name": "Dead or Alive 2",
+                    "url": "games/dreamcast/dead_or_alive_2",
+                    "year": "2000",
+                    "genre": "Fighting",
+                    "developerPublisher": [
+                        "Tecmo"
+                    ],
+                    "photo": "dreamcast/dead_or_alive_2.jpg",
+                    "planToBeat": false,
+                    "CurrentlyPlaying": false,
+                    "beaten": false
+                },
+                {
+                    "id": 61,
+                    "name": "House of the Dead 2",
+                    "url": "games/dreamcast/house_of_the_dead_2",
+                    "year": "1999",
+                    "genre": "Shooter",
+                    "developerPublisher": [
+                        "Sega"
+                    ],
+                    "photo": "dreamcast/house_of_the_dead_2.jpg",
+                    "planToBeat": false,
+                    "CurrentlyPlaying": false,
+                    "beaten": false
+                },
+                {
+                    "id": 62,
+                    "name": "Jet Set Radio",
+                    "url": "games/dreamcast/jet_set_radio",
+                    "year": "2000",
+                    "genre": "Platform",
+                    "developerPublisher": [
+                        "Sega"
+                    ],
+                    "photo": "dreamcast/jet_set_radio.jpg",
+                    "planToBeat": true,
+                    "CurrentlyPlaying": false,
+                    "beaten": false
+                },
+                {
+                    "id": 63,
+                    "name": "Jojo's Bizarre Adventure",
+                    "url": "games/dreamcast/jojos_bizarre_adventure",
+                    "year": "1998",
+                    "genre": "Fighting",
+                    "developerPublisher": [
+                        "Capcom"
+                    ],
+                    "photo": "dreamcast/jojos_bizarre_adventure.jpg",
+                    "planToBeat": false,
+                    "CurrentlyPlaying": false,
+                    "beaten": false
+                },
+                {
+                    "id": 64,
+                    "name": "Sonic Adventure",
+                    "url": "games/dreamcast/sonic_adventure",
+                    "year": "1998",
+                    "genre": "Platform",
+                    "developerPublisher": [
+                        "Sega"
+                    ],
+                    "photo": "dreamcast/sonic_adventure.jpg",
+                    "planToBeat": false,
+                    "CurrentlyPlaying": false,
+                    "beaten": false
+                },
+                {
+                    "id": 65,
+                    "name": "Soul Calibur",
+                    "url": "games/dreamcast/soul_calibur",
+                    "year": "1998",
+                    "genre": "Fighting",
+                    "developerPublisher": [
+                        "Namco"
+                    ],
+                    "photo": "dreamcast/soul_calibur.jpg",
+                    "planToBeat": false,
+                    "CurrentlyPlaying": false,
+                    "beaten": false
+                }
+            ],
+            "Genesis": [
+                {
+                    "id": 66,
+                    "name": "Phantasy Star 4",
+                    "url": "games/genesis/phantasy_star_4",
+                    "year": "1994",
+                    "genre": "RPG",
+                    "developerPublisher": "Sega",
+                    "photo": "genesis/phantasy_star_4.jpg",
+                    "planToBeat": false,
+                    "CurrentlyPlaying": false,
+                    "beaten": false
+                },
+                {
+                    "id": 67,
+                    "name": "Shinobi 3: Return of the Ninja Master",
+                    "url": "games/genesis/shinobi_3",
+                    "year": "1993",
+                    "genre": "Run&Gun",
+                    "developerPublisher": [
+                        "Sega"
+                    ],
+                    "photo": "genesis/shinobi_3.jpg",
+                    "planToBeat": false,
+                    "CurrentlyPlaying": false,
+                    "beaten": false
+                },
+                {
+                    "id": 68,
+                    "name": "Sonic the Hedgehog",
+                    "url": "games/genesis/sonic_the_hedgehog",
+                    "year": "1991",
+                    "genre": "Platform",
+                    "developerPublisher": [
+                        "Sega"
+                    ],
+                    "photo": "genesis/sonic_the_hedgehog.jpg",
+                    "planToBeat": false,
+                    "CurrentlyPlaying": false,
+                    "beaten": false
+                },
+                {
+                    "id": 69,
+                    "name": "Sonic the Hedgehog 2",
+                    "url": "games/genesis/sonic_the_hedgehog_2",
+                    "year": "1992",
+                    "genre": "Platform",
+                    "developerPublisher": [
+                        "Sega"
+                    ],
+                    "photo": "genesis/sonic_the_hedgehog_2.jpg",
+                    "planToBeat": false,
+                    "CurrentlyPlaying": false,
+                    "beaten": false
+                },
+                {
+                    "id": 70,
+                    "name": "Sonic the Hedgehog 3",
+                    "url": "games/genesis/sonic_the_hedgehog_3",
+                    "year": "1994",
+                    "genre": "Platform",
+                    "developerPublisher": [
+                        "Sega"
+                    ],
+                    "photo": "genesis/sonic_the_hedgehog_3.jpg",
+                    "planToBeat": false,
+                    "CurrentlyPlaying": false,
+                    "beaten": false
+                },
+                {
+                    "id": 71,
+                    "name": "Sonic & Knuckles",
+                    "url": "games/genesis/sonic_and_knuckles",
+                    "year": "1994",
+                    "genre": "Platform",
+                    "developerPublisher": [
+                        "Sega"
+                    ],
+                    "photo": "genesis/sonic_and_knuckles.jpg",
+                    "planToBeat": false,
+                    "CurrentlyPlaying": false,
+                    "beaten": false
+                },
+                {
+                    "id": 72,
+                    "name": "Streets of Rage 2",
+                    "url": "games/genesis/streets_of_rage_2",
+                    "year": "1992",
+                    "genre": "Run&Gun",
+                    "developerPublisher": [
+                        "Sega"
+                    ],
+                    "photo": "genesis/streets_of_rage_2.jpg",
+                    "planToBeat": false,
+                    "CurrentlyPlaying": false,
+                    "beaten": false
+                },
+                {
+                    "id": 73,
+                    "name": "Gunstar Heroes",
+                    "url": "games/genesis/gunstar_heroes",
+                    "year": "1993",
+                    "genre": "Run&Gun",
+                    "developerPublisher": [
+                        "Sega"
+                    ],
+                    "photo": "genesis/gunstar_heroes.jpg",
+                    "planToBeat": false,
+                    "CurrentlyPlaying": false,
+                    "beaten": false
+                }
+            ]
+        },
+        "Sony": {
+            "Playstation": [
+                {
+                    "id": 74,
+                    "name": "Resident Evil",
+                    "url": "games/playstation/resident_evil",
+                    "year": "1996",
+                    "genre": "Survival",
+                    "developerPublisher": [
+                        "Capcom"
+                    ],
+                    "photo": "playstation/resident_evil.jpg",
+                    "planToBeat": false,
+                    "CurrentlyPlaying": false,
+                    "beaten": false
+                }
+            ]
+        }
+    },
+    "genre": [
+        {
+            "id": 75,
+            "name": "Platform",
+            "url": "genre/platform",
+            "photo": "genre/platform.jpg"
+        },
+        {
+            "id": 76,
+            "name": "Action",
+            "url": "genre/action",
+            "photo": "genre/action.jpg"
+        },
+        {
+            "id": 77,
+            "name": "Run&Gun",
+            "url": "genre/run&gun",
+            "photo": "genre/run&gun.jpg"
+        },
+        {
+            "id": 78,
+            "name": "RPG",
+            "url": "genre/rpg",
+            "photo": "genre/rpg.jpg"
+        },
+        {
+            "id": 79,
+            "name": "Puzzle",
+            "url": "genre/puzzle",
+            "photo": "genre/puzzle.jpg"
+        },
+        {
+            "id": 80,
+            "name": "Simulator",
+            "url": "genre/simulator",
+            "photo": "genre/simulator.jpg"
+        },
+        {
+            "id": 81,
+            "name": "Fighting",
+            "url": "genre/fighting",
+            "photo": "genre/fighting.jpg"
+        },
+        {
+            "id": 82,
+            "name": "Shooter",
+            "url": "genre/shooter",
+            "photo": "genre/shooter.jpg"
+        },
+        {
+            "id": 83,
+            "name": "Racing",
+            "url": "genre/racing",
+            "photo": "genre/racing.jpg"
+        },
+        {
+            "id": 84,
+            "name": "Sports",
+            "url": "genre/sports",
+            "photo": "genre/sports.jpg"
+        },
+        {
+            "id": 85,
+            "name": "Survival",
+            "url": "genre/survival",
+            "photo": "genre/survival.jpg"
+        }
+    ],
+    "systems": [
+        {
+            "id": 86,
+            "name": "NES",
+            "url": "systems/nes",
+            "photo": "systems/nes.jpg"
+        },
+        {
+            "id": 87,
+            "name": "SNES",
+            "url": "systems/snes",
+            "photo": "systems/snes.jpg"
+        },
+        {
+            "id": 88,
+            "name": "N64",
+            "url": "systems/n64",
+            "photo": "systems/n64.jpg"
+        },
+        {
+            "id": 89,
+            "name": "Gamecube",
+            "url": "systems/gamecube",
+            "photo": "systems/gamecube.jpg"
+        },
+        {
+            "id": 90,
+            "name": "Genesis",
+            "url": "systems/genesis",
+            "photo": "systems/genesis.jpg"
+        },
+        {
+            "id": 91,
+            "name": "Dreamcast",
+            "url": "systems/dreamcast",
+            "photo": "systems/dreamcast.jpg"
+        },
+        {
+            "id": 92,
+            "name": "Playstation",
+            "url": "systems/playstation",
+            "photo": "systems/playstation.jpg"
+        }
+    ]
+}

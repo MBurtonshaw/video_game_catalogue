@@ -1,4 +1,5 @@
 import { React, useState, useEffect } from 'react';
+import genre from '../games.json';
 
 export default function GenresPage() {
 
@@ -6,18 +7,18 @@ export default function GenresPage() {
     const [isLoading, setIsLoading] = useState(true);
 
     async function getData() {
-        fetch('http://localhost:5000/', {
-            headers: {
-                'Content-Type': 'application/json',
-                'Accept': 'application/json'
-            }
-        })
-            .then(function (response) {
-                return response.json();
-            })
-            .then(function (myJson) {
-                setGenres(myJson.genre);
-            });
+        // fetch('http://localhost:5000/', {
+        //     headers: {
+        //         'Content-Type': 'application/json',
+        //         'Accept': 'application/json'
+        //     }
+        // })
+        //     .then(function (response) {
+        //         return response.json();
+        //     })
+        //     .then(function (myJson) {
+                setGenres(genre.genre);
+            // });
         setIsLoading(false);
     }
 

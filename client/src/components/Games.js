@@ -1,5 +1,6 @@
 import { React, useState, useEffect } from 'react';
 import Loading from './Loading';
+import titles from '../games.json';
 
 export default function Games() {
 
@@ -14,25 +15,33 @@ export default function Games() {
     const [isLoading, setIsLoading] = useState(true);
 
     async function getData() {
-        fetch('http://localhost:5000/games', {
-            headers: {
-                'Content-Type': 'application/json',
-                'Accept': 'application/json'
-            }
-        })
-            .then(function (response) {
-                return response.json();
-            })
-            .then(function (myJson) {
-                setNes(myJson.Nintendo.NES);
-                setSnes(myJson.Nintendo.SNES);
-                setN64(myJson.Nintendo.N64);
-                setGameCube(myJson.Nintendo.GameCube);
-                setDreamcast(myJson.Sega.Dreamcast);
-                setGenesis(myJson.Sega.Genesis);
-                setPlaystation(myJson.Sony.Playstation);
-                setGames(myJson);
-            });
+        // fetch('http://localhost:5000/games', {
+        //     headers: {
+        //         'Content-Type': 'application/json',
+        //         'Accept': 'application/json'
+        //     }
+        // })
+        //     .then(function (response) {
+        //         return response.json();
+        //     })
+        //     .then(function (myJson) {
+        //         setNes(myJson.Nintendo.NES);
+        //         setSnes(myJson.Nintendo.SNES);
+        //         setN64(myJson.Nintendo.N64);
+        //         setGameCube(myJson.Nintendo.GameCube);
+        //         setDreamcast(myJson.Sega.Dreamcast);
+        //         setGenesis(myJson.Sega.Genesis);
+        //         setPlaystation(myJson.Sony.Playstation);
+        //         setGames(myJson);
+        //     });
+        setNes(titles.titles.Nintendo.NES);
+        setSnes(titles.titles.Nintendo.SNES);
+        setN64(titles.titles.Nintendo.N64);
+        setGameCube(titles.titles.Nintendo.GameCube);
+        setDreamcast(titles.titles.Sega.Dreamcast);
+        setGenesis(titles.titles.Sega.Genesis);
+        setPlaystation(titles.titles.Sony.Playstation);
+        setGames(titles.titles);
         setIsLoading(false);
     }
 

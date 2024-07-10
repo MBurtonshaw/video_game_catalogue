@@ -1,5 +1,6 @@
 import { React, useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
+import titles from '../games.json';
 
 export default function Decades() {
 
@@ -12,29 +13,29 @@ export default function Decades() {
     const { id } = useParams();
 
     async function getData() {
-        fetch('http://localhost:5000/', {
-            headers: {
-                'Content-Type': 'application/json',
-                'Accept': 'application/json'
-            }
-        })
-            .then(function (response) {
-                return response.json();
-            })
-            .then(function (myJson) {
+        // fetch('http://localhost:5000/', {
+        //     headers: {
+        //         'Content-Type': 'application/json',
+        //         'Accept': 'application/json'
+        //     }
+        // })
+        //     .then(function (response) {
+        //         return response.json();
+        //     })
+        //     .then(function (myJson) {
                 let eighties_array = [];
                 let nineties_array = [];
                 let aughts_array = [];
 
-                let NES = myJson.games.Nintendo.NES;
-                let SNES = myJson.games.Nintendo.SNES;
-                let N64 = myJson.games.Nintendo.N64;
-                let GameCube = myJson.games.Nintendo.GameCube;
-                let Genesis = myJson.games.Sega.Genesis;
-                let Dreamcast = myJson.games.Sega.Dreamcast;
-                let Playstation = myJson.games.Sony.Playstation;
+                let NES = titles.titles.Nintendo.NES;
+                let SNES = titles.titles.Nintendo.SNES;
+                let N64 = titles.titles.Nintendo.N64;
+                let GameCube = titles.titles.Nintendo.GameCube;
+                let Genesis = titles.titles.Sega.Genesis;
+                let Dreamcast = titles.titles.Sega.Dreamcast;
+                let Playstation = titles.titles.Sony.Playstation;
 
-                setGames(myJson.games);
+                setGames(titles.titles);
 
                 NES.forEach((item, i) => {
                     if (item.year > 1979 && item.year < 1989) {
@@ -123,7 +124,7 @@ export default function Decades() {
                 setEighties(eighties_array);
                 setNineties(nineties_array);
                 setAughts(aughts_array);
-            });
+            // });
 
         setIsLoading(false);
     }

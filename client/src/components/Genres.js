@@ -1,5 +1,7 @@
 import { React, useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
+import titles from '../games.json';
+import genre from '../games.json';
 
 export default function Genres() {
 
@@ -12,25 +14,25 @@ export default function Genres() {
 
 
     async function getData() {
-        fetch('http://localhost:5000/', {
-            headers: {
-                'Content-Type': 'application/json',
-                'Accept': 'application/json'
-            }
-        })
-            .then(function (response) {
-                return response.json();
-            })
-            .then(function (myJson) {
+        // fetch('http://localhost:5000/', {
+        //     headers: {
+        //         'Content-Type': 'application/json',
+        //         'Accept': 'application/json'
+        //     }
+        // })
+        //     .then(function (response) {
+        //         return response.json();
+        //     })
+        //     .then(function (myJson) {
 
                 let genre_list = [];
-                let nes = myJson.games.Nintendo.NES;
-                let snes = myJson.games.Nintendo.SNES;
-                let n64 = myJson.games.Nintendo.N64;
-                let gamecube = myJson.games.Nintendo.GameCube;
-                let genesis = myJson.games.Sega.Genesis;
-                let dreamcast = myJson.games.Sega.Dreamcast;
-                let playstation = myJson.games.Sony.Playstation;
+                let nes = titles.titles.Nintendo.NES;
+                let snes = titles.titles.Nintendo.SNES;
+                let n64 = titles.titles.Nintendo.N64;
+                let gamecube = titles.titles.Nintendo.GameCube;
+                let genesis = titles.titles.Sega.Genesis;
+                let dreamcast = titles.titles.Sega.Dreamcast;
+                let playstation = titles.titles.Sony.Playstation;
 
                 nes.forEach(item => {
                     if (item.genre.toLowerCase() === id.toLowerCase()) {
@@ -73,10 +75,10 @@ export default function Genres() {
                         genre_list.push(item)
                     }
                 });
-                setGames(myJson.games);
-                setGenres(myJson.genre);
+                setGames(titles.titles);
+                setGenres(genre.genre);
                 setFilteredGames(genre_list);
-            });
+            // });
         setIsLoading(false)
 
     }

@@ -1,6 +1,7 @@
 import { React, useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import Loading from './Loading';
+import titles from '../games.json';
 
 export default function Systems() {
 
@@ -10,23 +11,23 @@ export default function Systems() {
     let { id } = useParams();
 
     async function getData() {
-        fetch('http://localhost:5000/', {
-            headers: {
-                'Content-Type': 'application/json',
-                'Accept': 'application/json'
-            }
-        })
-            .then(function (response) {
-                return response.json();
-            })
-            .then(function (myJson) {
-                let nes_games = myJson.games.Nintendo.NES;
-                let snes_games = myJson.games.Nintendo.SNES;
-                let n64_games = myJson.games.Nintendo.N64;
-                let gamecube_games = myJson.games.Nintendo.GameCube;
-                let genesis_games = myJson.games.Sega.Genesis;
-                let dreamcast_games = myJson.games.Sega.Dreamcast;
-                let playstation_games = myJson.games.Sony.Playstation;
+        // fetch('http://localhost:5000/', {
+        //     headers: {
+        //         'Content-Type': 'application/json',
+        //         'Accept': 'application/json'
+        //     }
+        // })
+        //     .then(function (response) {
+        //         return response.json();
+        //     })
+        //     .then(function (myJson) {
+                let nes_games = titles.titles.Nintendo.NES;
+                let snes_games = titles.titles.Nintendo.SNES;
+                let n64_games = titles.titles.Nintendo.N64;
+                let gamecube_games = titles.titles.Nintendo.GameCube;
+                let genesis_games = titles.titles.Sega.Genesis;
+                let dreamcast_games = titles.titles.Sega.Dreamcast;
+                let playstation_games = titles.titles.Sony.Playstation;
                 if (id === 'nes') {
                     setGames(nes_games);
                     setHeader('Nintendo Entertainment System');
@@ -55,7 +56,7 @@ export default function Systems() {
                     setGames(playstation_games);
                     setHeader('Sony Playstation');
                 }
-            });
+            // });
         setIsLoading(false);
     }
 
